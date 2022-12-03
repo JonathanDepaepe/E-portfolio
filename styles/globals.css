@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "vegan";
+  src: url("../public/fonts/Vegan.ttf");
+}
 
 html,
 body {
