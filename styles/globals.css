@@ -7,6 +7,15 @@
   src: url("../public/fonts/Vegan.ttf");
 }
 
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../public/fonts/LEMONMILK.otf");
+}
+
+@layer components {
+  .profile-button {  @apply  text-white bg-teal-600 rounded p-2 pl-4 pr-4 m-2}
+}
+
 html,
 body {
   padding: 0;
