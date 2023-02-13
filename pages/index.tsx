@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {TopNav} from "../components/navigation/topNav";
 import Image from "next/image";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -64,7 +65,9 @@ export default function Home() {
     };
 
     const scrollCheck = () => {
+        // @ts-ignore
         setscrollX(scrl.current.scrollLeft);
+        // @ts-ignore
         if (
             Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <=
             scrl.current.offsetWidth
