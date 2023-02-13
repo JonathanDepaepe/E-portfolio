@@ -32,11 +32,11 @@ export const TopNav: FC<Props> = ({page}) => {
                         <Link className={page === "Home" ? '' : 'text-zinc-400 group transition duration-300'}
                               href={"/"}>Home <span className={page === "Home" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
                         <Link className={page === "Projects" ? '' : 'text-zinc-400 group transition duration-300'}
-                              href={"projects"}>Projects <span className={page === "Projects" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
+                              href={"/projects"}>Projects <span className={page === "Projects" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
                         <Link className={page === "Blog" ? '' : 'text-zinc-400 group transition duration-300'}
                               href={"/blog"}>Blog <span className={page === "Blog" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
                         <Link className={page === "Contact" ? '' : 'text-zinc-400 group transition duration-300 '}
-                              href={"contact"}>Contact <span className={page === "Contact" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
+                              href={"/contact"}>Contact <span className={page === "Contact" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
                     </div>
                 </div>
             </nav>

@@ -20,6 +20,15 @@
   .profile-button {  @apply  text-white bg-teal-600 rounded p-2 pl-4 pr-4 m-2}
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 .writer-text {
   display: inline-block;
   overflow: hidden;

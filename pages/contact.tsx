@@ -5,17 +5,18 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faLocationDot, faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faInstagram, faTwitter, faFacebook} from '@fortawesome/free-brands-svg-icons'
 import Link from "next/link";
+import {MainFooter} from "../components/footer/mainFooter"
 
 export default function Contact() {
-    // @ts-ignore
     return (
-        <>
-            <div className={"bg-zinc-800"}>
+        <div className="flex flex-col h-full justify-between">
+            <div className={"bg-zinc-700"}>
                 <div className={"w-page mr-auto ml-auto"}>
                     <TopNav page={"Contact"}/>
                 </div>
             </div>
-            <main className={"w-page mt-3 mr-auto ml-auto"}>
+            <main className={"bg-zinc-700 h-full text-white"}>
+                <div className={"flex w-page mr-auto ml-auto"}>
                 <div>
                     <div>
                         <FontAwesomeIcon icon={faLocationDot}/><p>Aartrijksestraat 96, 8211 Aartrijke</p>
@@ -35,8 +36,9 @@ export default function Contact() {
 
 
                 </form>
-
+                </div>
             </main>
-        </>
+            <MainFooter/>
+        </div>
     )
 }
