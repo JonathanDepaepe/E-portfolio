@@ -1,11 +1,26 @@
 import {TopNav} from "../../components/navigation/topNav";
-import React from "react";
+import React, {useState} from "react";
 import {MainFooter} from "../../components/footer/mainFooter";
 import Image from "next/image"
 import 'flowbite';
 
 
 export default function Blog() {
+    const totalImages= 4;
+    const [currentImage, setCurrentImage] = useState(0);
+
+    function nextImage(){
+        currentImage + 1 === totalImages +1?
+            setCurrentImage(0):
+            setCurrentImage(currentImage+1);
+    }
+    function prevImage(){
+        currentImage - 1 === -1?
+            setCurrentImage(4):
+            setCurrentImage(currentImage-1);
+    }
+
+
     return (
         <>
 
@@ -19,7 +34,7 @@ export default function Blog() {
                     <h2 className={"w-fit self-center text-2xl mb-5 mt-5 font-vegan"}>Hack The Future</h2>
                 <div id="controls-carousel" className="relative" data-carousel="static">
                     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-                        <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <div className=" duration-700 ease-in-out" data-carousel-item="active">
                             <Image src="/images/hackTheFuture/wonPicutre.JPG" width={4200} height={2800}
                                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                    alt="..."/>

@@ -81,28 +81,28 @@ export default function Home() {
     return (
         <>
             <div className={"bg-zinc-700"}>
-                <div className={"w-page mr-auto ml-auto"}>
+                <div className={" lg:w-page mr-auto ml-auto"}>
                     <TopNav page={"Home"}/>
                 </div>
             </div>
             <main className={"bg-zinc-700 text-white h-12/12"}>
-                <div className={"flex w-page mr-auto ml-auto "}>
-                    <div className={"mr-3 w-6/12 mt-auto mb-auto"}>
-                        <h3 className={"font-bold text-right  text-xl"}>Hi There, I am</h3>
-                        <h2 className="font-lemon text-teal-600 text-3xl text-right"><Typewriter
+                <div className={"flex xl:w-page flex-wrap md:flex-nowrap mr-auto ml-auto justify-center"}>
+                    <div className={"mr-3 md:w-6/12 mt-auto mb-auto"}>
+                        <h3 className={"font-bold text-center md:text-right  text-xl"}>Hi There, I am</h3>
+                        <h2 className="font-lemon text-teal-600 text-3xl text-center md:text-right"><Typewriter
                             words={['Jonathan Depaepe']}
                             typeSpeed={100}
                             cursor
                             cursorStyle='_'
 
                         /></h2>
-                        <p className={"text-right"}>A font end developer who will soon be graduated from Howest Bruges
+                        <p className={"text-center md:text-right"}>A font end developer who will soon be graduated from Howest Bruges
                             as a
                             Software engineer. I like
                             to create or edit websites in my spare time. Getting to know new projects and solving their
                             problems is definitely my thing!</p>
-                        <div className={"mt-3 flex  text-right"}>
-                            <Link className={"profile-button ml-auto flex "} href={""}>Project <FontAwesomeIcon
+                        <div className={"mt-3 flex flex-wrap justify-center md:justify-end"}>
+                            <Link className={"profile-button  flex "} href={""}>Project <FontAwesomeIcon
                                 className={"ml-1 mt-auto mb-auto"}
                                 icon={faFloppyDisk}/></Link>
                             <Link className={"profile-button flex"} href={""}>Contact <FontAwesomeIcon className={"ml-1 mt-auto mb-auto"}
@@ -114,7 +114,7 @@ export default function Home() {
                                                     icon={faFileDownload}/></Link>
                         </div>
                     </div>
-                    <Image src={"/images/IMG_E8092.JPG"} className={"rounded"} width={400} height={466}
+                    <Image src={"/images/IMG_E8092.JPG"} className={"rounded  lg:w-5/12"} width={400} height={466}
                            alt={"profile Pic"}/>
                 </div>
 
@@ -123,10 +123,10 @@ export default function Home() {
                     <div className="w-page mt-4 pt-4 mr-auto ml-auto">
                         <h4 className=" font-bold text-3xl w-fit ml-auto mr-auto mb-5">Skills & Experiences</h4>
                         <div className="flex justify-around">
-                            <div className="flex">
+                            <div className="flex w-full justify-center">
                                 {scrollX !== 0 && (
                                     <button
-                                        className="bg-zinc-700 rounded-full h-fit p-2 mt-auto mb-auto mr-3"
+                                        className="bg-zinc-700 rounded-full h-fit p-2 mt-auto mb-auto"
                                         onClick={() => slide(-50)}
                                         onMouseEnter={(e) => anim(e)}
                                         onMouseLeave={(e) => anim2(e)}
@@ -200,7 +200,7 @@ export default function Home() {
                                             <div className="bg-git h-2.5 rounded-full w-6/12"/>
                                         </div>
                                     </div>
-                                    <div className="w-fit mr-10">
+                                    <div className="w-fit">
                                         <div className='flex flex-col mb-2 w-fit ml-auto mr-auto'>
                                             <h5 className="w-fit ml-auto mr-auto">Python</h5>
                                             <FontAwesomeIcon className={"text-python text-5xl "} icon={faPython}/>
@@ -212,7 +212,7 @@ export default function Home() {
                                 </ul>
                                 {!scrolEnd && (
                                     <button
-                                        className="bg-zinc-700 rounded-full h-fit p-2 mt-auto mb-auto ml-3"
+                                        className="bg-zinc-700 rounded-full h-fit p-2 mt-auto mb-auto"
                                         onClick={() => slide(+50)}
                                         onMouseEnter={(e) => anim(e)}
                                         onMouseLeave={(e) => anim2(e)}

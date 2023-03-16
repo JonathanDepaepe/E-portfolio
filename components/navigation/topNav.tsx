@@ -27,7 +27,7 @@ export const TopNav: FC<Props> = ({page}) => {
                     </div>
                 </div>
                 <div className=" flex justify-between pb-5">
-                    <h1 className="text-2xl font-vegan">Jonathan Depaepe</h1>
+                    <h1 className="ml-2 text-2xl font-vegan">Jonathan Depaepe</h1>
                     <div className={"flex w-6/12 justify-around "}>
                         <Link className={page === "Home" ? '' : 'text-zinc-400 group transition duration-300'}
                               href={"/"}>Home <span className={page === "Home" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
