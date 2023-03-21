@@ -9,8 +9,6 @@ type Props = {
 }
 
 export const TopNav: FC<Props> = ({page}) => {
-
-
     return (
         <>
             <nav className={"bg-zinc-700 text-white "}>

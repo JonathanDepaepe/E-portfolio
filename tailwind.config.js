@@ -12,7 +12,11 @@ module.exports = {
         lemon : ["lemonMilk"]
       },
       width: {
-        page: "70%"
+        page70: "70%",
+        page90: "90%"
+      },
+      maxWidth: {
+        page: "1200px"
       },
       colors: {
         java: "#f89820",
