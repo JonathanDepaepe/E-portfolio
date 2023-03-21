@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from 'react'
 import Image from "next/image";
 import useStore from "../../lib/store";
+import wonPicture from "../../public/images/hackTheFuture/wonPicutre.jpg";
+import snacks from "../../public/images/hackTheFuture/snacks.jpg"
+import stage from "../../public/images/hackTheFuture/stage.jpg"
 
 export const Slider = () => {
     const totalImages= 4;
@@ -53,18 +56,18 @@ export const Slider = () => {
             </button>
             <div className="slider rounded-xl">
             <div className={"image" + currentImage +  " image-container"}>
-                <Image src="/images/hackTheFuture/wonPicutre.JPG" priority={true} placeholder={"blur"} width={1000} height={600}
+                <Image src={wonPicture} priority={true} placeholder={"blur"} width={1000} height={600}
                        className="slide bg-zinc-700"
-                       alt="..."/>
+                       alt="Won picture"/>
                 <Image src="/images/hackTheFuture/hackTheFuture.png" priority={true} placeholder={"blur"} width={1000} height={600}
                        className="slide bg-zinc-700"
-                       alt="..."/>
-                <Image src="/images/hackTheFuture/snacks.jpg" priority={true} placeholder={"blur"}  width={1000} height={600}
+                       alt="hacktefuturelogo"/>
+                <Image src={snacks} priority={true} placeholder={"blur"}  width={1000} height={600}
                        className=" slide bg-zinc-700"
-                       alt="..."/>
-                <Image src="/images/hackTheFuture/stage.jpg" priority={true} placeholder={"blur"} width={1000} height={600}
+                       alt="snacks"/>
+                <Image src={stage} priority={true} placeholder={"blur"} width={1000} height={600}
                        className="slide bg-zinc-700"
-                       alt="..."/>
+                       alt="stage"/>
             </div>
             </div>
             <button type="button" onClick={()=>{nextImage(); useStore.setState({ slider: Date.now() });}}

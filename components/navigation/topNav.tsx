@@ -42,7 +42,7 @@ export const TopNav: FC<Props> = ({page}) => {
                               href={"/contact"}>Contact <span
                             className={page === "Contact" ? 'block h-0.5 bg-teal-600' : "block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-teal-600"}></span></Link>
                     </div>
-                    <div className="fixed top-16 right-1 px-4">
+                    <div className="fixed z-10 top-16 right-1 px-4">
                         <Popover className="relative">
                             {({open}) => (
                                 <>

@@ -2,6 +2,7 @@ import {TopNav} from "../../components/navigation/topNav";
 import React, {useEffect} from "react";
 import {MainFooter} from "../../components/footer/mainFooter";
 import {Slider} from "../../components/slider";
+import Link from "next/link";
 
 
 export default function Blog() {
@@ -30,8 +31,8 @@ export default function Blog() {
                             IT and creative students and its
                             backed by the CRONOS GROUP. When you registered for the hackathon you had to create a group
                             of 2 people with its own
-                            name. I Joined up with <a className={"border-b-2 border-b-teal-600"}
-                                href="https://www.linkedin.com/in/buffel-aron/">Aron Buffel</a> and together we created
+                            name. I Joined up with <Link className={"border-b-2 border-b-teal-600"}
+                               target="_blank" href="https://www.linkedin.com/in/buffel-aron/">Aron Buffel</Link> and together we created
                             the group Null.</p>
 
                         <div className={"flex justify-between flex-wrap"}>
