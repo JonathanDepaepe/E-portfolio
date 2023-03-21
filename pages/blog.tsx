@@ -9,12 +9,12 @@ export default function Blog() {
     return (
         <div className="flex flex-col h-full justify-between">
             <div className={"bg-zinc-700"}>
-                <div className={"w-page mr-auto ml-auto"}>
+                <div className={"w-page70 mr-auto ml-auto"}>
                     <TopNav page={"Blog"}/>
                 </div>
             </div>
             <main className={"bg-zinc-700 h-full text-white h-12/12 h-12/12"}>
-                <div className={"flex w-page mr-auto ml-auto flex-wrap justify-center"}>
+                <div className={"flex w-page70 mr-auto ml-auto flex-wrap justify-center"}>
 
                     <Link  className="w-80 h-80 flex flex-col rounded-lg mt-5 mr-5" href="/posts/hackTheFuture">
                         <Image src="/images/hackTheFuture/hackTheFuture.png" className="rounded-xl w-10/12 ml-auto mr-auto -mb-14 z-10" alt="hackLogo" width={200} height={112} />

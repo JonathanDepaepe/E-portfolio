@@ -82,12 +82,12 @@ export default function Home() {
     return (
         <>
             <div className={"bg-zinc-700"}>
-                <div className={" lg:w-page mr-auto ml-auto"}>
+                <div className={" lg:w-page70 mr-auto ml-auto"}>
                     <TopNav page={"Home"}/>
                 </div>
             </div>
             <main className={"bg-zinc-700 text-white h-12/12"}>
-                <div className={"flex xl:w-page flex-wrap md:flex-nowrap mr-auto ml-auto justify-center"}>
+                <div className={"flex xl:w-page70 flex-wrap md:flex-nowrap mr-auto ml-auto justify-center"}>
                     <div className={"mr-3 md:w-6/12 mt-auto mb-auto"}>
                         <h3 className={"font-bold text-center md:text-right  text-xl"}>Hi There, I am</h3>
                         <h2 className="font-lemon text-teal-600 text-3xl text-center md:text-right"><Typewriter
@@ -121,7 +121,7 @@ export default function Home() {
 
 
                 <div className="bg-zinc-900 w-12/12 ">
-                    <div className="w-page mt-4 pt-4 mr-auto ml-auto">
+                    <div className="w-page70 mt-4 pt-4 mr-auto ml-auto">
                         <h4 className=" font-bold text-3xl w-fit ml-auto mr-auto mb-5">Skills & Experiences</h4>
                         <div className="flex justify-around">
                             <div className="flex w-full justify-center">
