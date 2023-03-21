@@ -53,16 +53,16 @@ export const Slider = () => {
             </button>
             <div className="slider rounded-xl">
             <div className={"image" + currentImage +  " image-container"}>
-                <Image src="/images/hackTheFuture/wonPicutre.JPG" width={1000} height={600}
+                <Image src="/images/hackTheFuture/wonPicutre.JPG" priority={true} placeholder={"blur"} width={1000} height={600}
                        className="slide bg-zinc-700"
                        alt="..."/>
-                <Image src="/images/hackTheFuture/hackTheFuture.png" width={1000} height={600}
+                <Image src="/images/hackTheFuture/hackTheFuture.png" priority={true} placeholder={"blur"} width={1000} height={600}
                        className="slide bg-zinc-700"
                        alt="..."/>
-                <Image src="/images/hackTheFuture/snacks.jpg" width={1000} height={600}
+                <Image src="/images/hackTheFuture/snacks.jpg" priority={true} placeholder={"blur"}  width={1000} height={600}
                        className=" slide bg-zinc-700"
                        alt="..."/>
-                <Image src="/images/hackTheFuture/stage.jpg" width={1000} height={600}
+                <Image src="/images/hackTheFuture/stage.jpg" priority={true} placeholder={"blur"} width={1000} height={600}
                        className="slide bg-zinc-700"
                        alt="..."/>
             </div>

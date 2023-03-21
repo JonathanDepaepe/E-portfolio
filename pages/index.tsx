@@ -115,7 +115,7 @@ export default function Home() {
                                                     icon={faFileDownload}/></Link>
                         </div>
                     </div>
-                    <Image src={"/images/IMG_E8092.JPG"} className={"rounded  lg:w-5/12"} width={400} height={466}
+                    <Image src={"/images/IMG_E8092.JPG"} priority={true} placeholder={"blur"} className={"rounded  lg:w-5/12"} width={400} height={466}
                            alt={"profile Pic"}/>
                 </div>
 
