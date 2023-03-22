@@ -20,6 +20,7 @@ import React, {useEffect, useState} from "react";
 import {MainFooter} from "../components/footer/mainFooter";
 import {useRef} from "react";
 import gsap from "gsap";
+import profilePic from "../public/images/IMG_E8092.jpg"
 
 
 export default function Home() {
@@ -115,7 +116,7 @@ export default function Home() {
                                                     icon={faFileDownload}/></Link>
                         </div>
                     </div>
-                    <Image src={"/images/IMG_E8092.JPG"} priority={true} placeholder={"blur"} className={"rounded  lg:w-5/12"} width={400} height={466}
+                    <Image src={profilePic} priority={true} placeholder={"blur"} className={"rounded  lg:w-5/12"} width={400} height={466}
                            alt={"profile Pic"}/>
                 </div>
 

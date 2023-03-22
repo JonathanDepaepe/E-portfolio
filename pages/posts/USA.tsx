@@ -1,6 +1,7 @@
 import {TopNav} from "../../components/navigation/topNav";
 import {MainFooter} from "../../components/footer/mainFooter"
 import React from "react";
+import {Diary} from "../../components/diary";
 
 
 export default function Blog() {
@@ -11,12 +12,31 @@ export default function Blog() {
                     <TopNav page={"Blog"}/>
                 </div>
             </div>
-            <main className={"bg-zinc-700 h-full text-white h-12/12 h-12/12"}>
-                <div className={"flex w-page70 mr-auto ml-auto flex flex-col"}>
-                    <h3>HoWest Goes USA</h3>
-
-                    <div>
-
+            <main className={"bg-zinc-700 text-white"}>
+                <div className={"flex w-page90 md:w-page70 mr-auto ml-auto flex flex-col"}>
+                    <h3 className="w-fit self-center text-3xl mb-5 mt-5 font-vegan tracking-wider">Howest  goes usa</h3>
+                    <div className="flex mr-auto ml-auto flex-wrap justify-center">
+                        <Diary title={"Day 1"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 2"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 3"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 4"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 5"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 6"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 7"}
+                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
                     </div>
                 </div>
             </main>

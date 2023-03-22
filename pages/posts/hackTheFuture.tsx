@@ -3,6 +3,10 @@ import React, {useEffect} from "react";
 import {MainFooter} from "../../components/footer/mainFooter";
 import {Slider} from "../../components/slider";
 import Link from "next/link";
+import wonPicture from "../../public/images/hackTheFuture/wonPicutre.jpg";
+import snacks from "../../public/images/hackTheFuture/snacks.jpg"
+import stage from "../../public/images/hackTheFuture/stage.jpg"
+import hackTheFuture from "../../public/images/hackTheFuture/hackTheFuture.png"
 
 
 export default function Blog() {
@@ -19,7 +23,12 @@ export default function Blog() {
             <main className={"bg-zinc-700 text-white h-12/12"}>
                 <div className={"flex w-page90 md:w-page70 mr-auto ml-auto flex-col max-w-page"}>
                     <h2 className={"w-fit self-center text-3xl mb-5 mt-5 font-vegan"}>Hack The Future</h2>
-                    <Slider/>
+                    <Slider images={[
+                        {name:"wonPicture", image:wonPicture},
+                        {name:"hackTheFuture", image:hackTheFuture},
+                        {name:"stacks", image:snacks},
+                        {name:"stage", image:stage}
+                    ]} />
                     <article className={"mb-5 flex flex-col"}>
                         <div className="flex justify-end mb-3">
                             <p>15 Nov 2022</p>

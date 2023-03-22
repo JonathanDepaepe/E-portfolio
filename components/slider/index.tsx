@@ -1,12 +1,14 @@
-import React, {useEffect, useState} from 'react'
-import Image from "next/image";
+import React, {FC, useEffect, useState} from 'react'
 import useStore from "../../lib/store";
-import wonPicture from "../../public/images/hackTheFuture/wonPicutre.jpg";
-import snacks from "../../public/images/hackTheFuture/snacks.jpg"
-import stage from "../../public/images/hackTheFuture/stage.jpg"
+import Image from "next/image";
 
-export const Slider = () => {
-    const totalImages= 4;
+
+type Props = {
+    images: any[]
+}
+
+export const Slider: FC<Props> = ({images}) => {
+    const totalImages= images.length;
     const [currentImage, setCurrentImage] = useState(1);
     function nextImage(){
         currentImage + 1 === totalImages +1?
@@ -19,7 +21,6 @@ export const Slider = () => {
             setCurrentImage(4):
             setCurrentImage(currentImage-1);
     }
-
     function autoSlider(){
         setTimeout(()=>{
             let sessionState = useStore.getState();
@@ -32,15 +33,12 @@ export const Slider = () => {
         },5000)
 
     }
-
     function calcDateSeconds(date1: Date, date2: Date){
         return (date1.valueOf() - date2.valueOf())/1000;
     }
-
-    useEffect(()=>{
+    useEffect(()=> {
         autoSlider();
-        console.log("here")})
-
+    })
     return (
         <div className="flex">
 
@@ -55,20 +53,14 @@ export const Slider = () => {
             <span className="sr-only">Previous</span></span>
             </button>
             <div className="slider rounded-xl">
-            <div className={"image" + currentImage +  " image-container"}>
-                <Image src={wonPicture} priority={true} placeholder={"blur"} width={1000} height={600}
-                       className="slide bg-zinc-700"
-                       alt="Won picture"/>
-                <Image src="/images/hackTheFuture/hackTheFuture.png" priority={true} placeholder={"blur"} width={1000} height={600}
-                       className="slide bg-zinc-700"
-                       alt="hacktefuturelogo"/>
-                <Image src={snacks} priority={true} placeholder={"blur"}  width={1000} height={600}
-                       className=" slide bg-zinc-700"
-                       alt="snacks"/>
-                <Image src={stage} priority={true} placeholder={"blur"} width={1000} height={600}
-                       className="slide bg-zinc-700"
-                       alt="stage"/>
-            </div>
+                <div className={"image" + currentImage +  " image-container"}>
+                    {images.map((image ) => (
+                        <Image key={image.name} src={image.image} placeholder={"blur"} priority={true}
+                               className="slide bg-zinc-700"
+                               alt={image.name}/>
+                    ))}
+
+                </div>
             </div>
             <button type="button" onClick={()=>{nextImage(); useStore.setState({ slider: Date.now() });}}
                     className=""
