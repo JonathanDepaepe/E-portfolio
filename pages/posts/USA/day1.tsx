@@ -4,8 +4,8 @@ import {MainFooter} from "../../../components/footer/mainFooter";
 import {Slider} from "../../../components/slider";
 import SunsSet from "../../../public/images/howestUSA/day1/IMG_8409.jpg";
 import JonathanSeaView from "../../../public/images/howestUSA/day1/IMG_8406.jpg";
-import TopOfStreet from "../../../public/images/howestUSA/day1/IMG_8387.jpg"
-
+import YarneAirplane from "../../../public/images/howestUSA/day1/IMG_8387.jpg"
+import TopOfStreet from "../../../public/images/howestUSA/day1/IMG_8392.jpg"
 
 
 
@@ -22,8 +22,9 @@ export default function Day1() {
                     <h2 className={"w-fit self-center text-3xl mb-5 mt-5 font-vegan tracking-wider"}>First Day</h2>
                     <Slider images={[
                         {name:"JonathanSeaView", image:JonathanSeaView},
-                        {name:"TopOfStreet", image:TopOfStreet},
+                        {name:"YarneAirplane", image:YarneAirplane},
                         {name:"SunsSet", image:SunsSet},
+                        {name:"TopOfStreet", image:TopOfStreet},
                     ]}/>
                     <article className={"mb-5 flex flex-col"}>
                         <div className="flex justify-end mb-3">
