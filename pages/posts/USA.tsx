@@ -17,9 +17,9 @@ export default function Blog() {
                     <h3 className="w-fit self-center text-3xl mb-5 mt-5 font-vegan tracking-wider">Howest  goes usa</h3>
                     <div className="flex mr-auto ml-auto flex-wrap justify-center">
                         <Diary title={"Day 1"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
-                        <Diary title={"Day 2"}
+                               description={"The journey from Bruges to  San Francisco. It all started monday morning at 1AM and ended more then 24 hours later in nice city of San Francisco."}
+                               image={"/images/howestUSA/day1/IMG_8392.jpg"} slug={'./USA/day1'}/>
+                        {/*<Diary title={"Day 2"}
                                description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
                                image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
                         <Diary title={"Day 3"}
@@ -36,7 +36,7 @@ export default function Blog() {
                                image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
                         <Diary title={"Day 7"}
                                description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>*/}
                     </div>
                 </div>
             </main>

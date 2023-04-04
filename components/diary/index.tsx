@@ -1,4 +1,4 @@
-import React, {FC, Fragment} from 'react'
+import React, {FC} from 'react'
 import Link from "next/link";
 import Image from "next/image";
 
@@ -17,8 +17,8 @@ export const Diary: FC<Props> = ({title,description,image,slug}) => {
                 <div className="bg-zinc-600 pt-16  flex flex-col h-full rounded-xl hover:shadow-2xl">
                     <h3 className="text-xl text-center font-bold">{title}</h3>
                     <p className="text-zinc-300 text-s ml-2 mr-2 mt-1.5">{description}</p>
-                    {/*<button className="w-full rounded-bl-xl rounded-br-xl bg-teal-600 text-xl pt-3 pb-3 mt-3 hover:bg-teal-700">READ</button>*/}
-                    <button className="w-9/12 ml-auto mr-auto mb-3 rounded-xl bg-teal-600 text-xl pt-3 pb-3 mt-3 hover:bg-teal-700">READ</button>
+                    <button className="w-full rounded-bl-xl rounded-br-xl bg-teal-600 text-xl pt-3 pb-3 mt-3 hover:bg-teal-700">READ</button>
+                    {/*<button className="w-9/12 ml-auto mr-auto mb-3 rounded-xl bg-teal-600 text-xl pt-3 pb-3 mt-3 hover:bg-teal-700">READ</button>*/}
                 </div>
             </Link>
         </>

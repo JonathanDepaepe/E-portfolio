@@ -3,6 +3,8 @@ import {MainFooter} from "../components/footer/mainFooter"
 import React from "react";
 import Image from "next/image"
 import Link from "next/link"
+import hackTheFuture from "../public/images/hackTheFuture/hackTheFuture.png"
+import USA from "../public/images/LvAyMie.jpg"
 
 
 export default function Blog() {
@@ -17,7 +19,7 @@ export default function Blog() {
                 <div className={"flex w-page70 mr-auto ml-auto flex-wrap justify-center"}>
 
                     <Link  className="w-80 h-80 flex flex-col rounded-lg mt-5 mr-5" href="/posts/hackTheFuture">
-                        <Image src="/images/hackTheFuture/hackTheFuture.png" className="rounded-xl w-10/12 ml-auto mr-auto -mb-14 z-10" alt="hackLogo" width={200} height={112} />
+                        <Image src={hackTheFuture} placeholder={"blur"} className="rounded-xl w-10/12 ml-auto mr-auto -mb-14 z-10" alt="hackLogo" width={200} height={112} />
                         <div className="bg-zinc-600 pt-16 pb-3 rounded-xl h-full hover:shadow-2xl">
                             <h3 className="text-xl ml-4">Hack the Future</h3>
                             <p className="text-zinc-300 text-s ml-4 m-1.5">An experience-driven hackathon that a friend and me has participated in. This event has been backed by the CRONOS GROUP.</p>
@@ -25,7 +27,7 @@ export default function Blog() {
                     </Link>
 
                     <Link className="w-80 h-80 flex flex-col rounded-lg mt-5 mb-5" href="/posts/USA">
-                        <Image src="/images/LvAyMie.jpg" className="rounded-xl w-10/12 ml-auto mr-auto -mb-14 z-10" alt="hackLogo" width={200} height={112} />
+                        <Image src={USA} placeholder={"blur"} className="rounded-xl w-10/12 ml-auto mr-auto -mb-14 z-10" alt="hackLogo" width={200} height={112} />
                         <div className="bg-zinc-600 pt-16 pb-3 h-full rounded-xl hover:shadow-2xl">
                             <h3 className="text-xl ml-4">HoWest Goes USA Diary</h3>
                             <p className="text-zinc-300 text-s ml-4 mt-1.5">An whole week with HoWest to San Francisco to visit well known companies. Such as Google, Microsoft, Rivian...</p>

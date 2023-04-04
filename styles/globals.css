@@ -77,54 +77,14 @@ a {
 }
 
 .slider {
-  width: 100%;
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  text-align: center;
-  overflow: hidden;
 }
 .image-container {
   width: 400%;
   clear: both;
-  position: relative;
   -webkit-transition: left 2s;
   -moz-transition: left 2s;
   -o-transition: left 2s;
   transition: left 2s;
   left: 0;
-}
-
-.image1.image-container{
-  left: 0;
-}
-.image2.image-container{
-  left: -100%;
-}
-.image3.image-container{
-  left: -200%;
-}
-.image4.image-container{
-  left: -300%;
-}
-.image5.image-container{
-  left: -400%;
-}
-.image6.image-container{
-  left: -500%;
-}
-.image7.image-container{
-  left: -600%;
-}
-.image8.image-container{
-  left: -700%;
-}
-
-.slide {
-  width: 25%;
-  float: left;
-  margin: 0;
-  padding: 0;
-  position: relative;
 }

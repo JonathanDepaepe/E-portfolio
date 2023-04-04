@@ -14,7 +14,6 @@ export const Slider: FC<Props> = ({images}) => {
         currentImage + 1 === totalImages +1?
             setCurrentImage(1):
             setCurrentImage(currentImage+1);
-
     }
     function prevImage(){
         currentImage - 1 === 0?
@@ -52,11 +51,11 @@ export const Slider: FC<Props> = ({images}) => {
                                                                               d="M15 19l-7-7 7-7"></path></svg>
             <span className="sr-only">Previous</span></span>
             </button>
-            <div className="slider rounded-xl">
-                <div className={"image" + currentImage +  " image-container"}>
+            <div className="slider ml-auto mr-auto mt-0 text-center overflow-hidden w-full rounded-xl">
+                <div style={{width: totalImages*100+"%", left: `-${(currentImage -1)*100}%` }} className={"image" + currentImage +  " image-container relative"}>
                     {images.map((image ) => (
                         <Image key={image.name} src={image.image} placeholder={"blur"} priority={true}
-                               className="slide bg-zinc-700"
+                               className="slide bg-zinc-700 float-left m-0 p-0 relative" style={{width:100/totalImages+"%"}}
                                alt={image.name}/>
                     ))}
 
