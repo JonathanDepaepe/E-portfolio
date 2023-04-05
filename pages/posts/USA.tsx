@@ -19,10 +19,10 @@ export default function Blog() {
                         <Diary title={"Day 1"}
                                description={"The journey from Bruges to  San Francisco. It all started monday morning at 1AM and ended more then 24 hours later in nice city of San Francisco."}
                                image={"/images/howestUSA/day1/IMG_8392.jpg"} slug={'./USA/day1'}/>
-                        {/*<Diary title={"Day 2"}
+                        <Diary title={"Day 2"}
                                description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
-                        <Diary title={"Day 3"}
+                               image={"/images/howestUSA/day2/golden_bridge_far.jpg"} slug={'./USA/day2'}/>
+                        {/*<Diary title={"Day 3"}
                                description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
                                image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
                         <Diary title={"Day 4"}
