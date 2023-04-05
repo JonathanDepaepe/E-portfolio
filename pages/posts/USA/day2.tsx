@@ -45,7 +45,7 @@ export default function Day1() {
                                 <p className={"text-s text-gray-300"}>The day started at 7.30 in the morning. We took a bus to the start of Golden Gate bridge and from there we crossed the bridge on foot.
                                     The view in the morning was amazing and the bridge itself was massive and amazing as well. After we all crossed the bridge we get into the bus and went to Palo Alto Networks.
                                     When we arrived we all when into a meeting room for a short intro of the company and also 3 persons that talked about how they joined the company. After all this information we went on a tour around the campus.
-                                    Here you could see how it was to work for a big company (Own fitness room, 4 different types of restaurants, play room, special offices for remote employers that don't need a desk)
+                                    Here you could see how it was to work for a big company (Own fitness room, 4 different types of restaurants, play room, special offices for remote employers that don&apos;t need a desk)
                                 </p>
                             </div>
                             <div className="mt-3 md:mt-0 md:w-5/12">
