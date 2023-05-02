@@ -7,6 +7,8 @@ export const MainFooter = () => {
             <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">©<a
                 href="#" className="hover:underline">Jonathan D</a>. All Rights Reserved.
     </span>
+            <Script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></Script>
+            <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerPolicy="no-referrer-when-downgrade" /></noscript>
             <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-1SRXXZQT8R"/>
             <Script id='google-analytics'
                 strategy="afterInteractive"

@@ -11,7 +11,7 @@ import onGoldenBridge from "../../../public/images/howestUSA/day2/view_in_de_mor
 import viewSanFran from "../../../public/images/howestUSA/day2/view_San_Fran.jpg"
 
 
-export default function Day1() {
+export default function Day2() {
     return (
         <div>
             <div className={"bg-zinc-700"}>
