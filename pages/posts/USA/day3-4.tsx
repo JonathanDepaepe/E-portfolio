@@ -2,12 +2,13 @@ import {TopNav} from "../../../components/navigation/topNav";
 import React from "react";
 import {MainFooter} from "../../../components/footer/mainFooter";
 import {Slider} from "../../../components/slider";
-import goldenBridgeFar from "../../../public/images/howestUSA/day2/golden_bridge_far.jpg";
-import appleVisitor from "../../../public/images/howestUSA/day2/apple_visitor.jpg";
-import microsoftLogo from "../../../public/images/howestUSA/day2/microsoft_logo.jpg"
-import viewMorning from "../../../public/images/howestUSA/day2/view_in_de_morning.jpg"
-import onGoldenBridge from "../../../public/images/howestUSA/day2/view_in_de_morning.jpg"
-import viewSanFran from "../../../public/images/howestUSA/day2/view_San_Fran.jpg"
+
+import morningView from "../../../public/images/howestUSA/day3-4/morningView.jpeg";
+import berkley from "../../../public/images/howestUSA/day3-4/berkley.jpeg";
+import berkley2 from "../../../public/images/howestUSA/day3-4/berkley-02.jpeg";
+import odooSign from "../../../public/images/howestUSA/day3-4/odooSign.jpeg";
+import oracle from "../../../public/images/howestUSA/day3-4/oracle.jpeg";
+
 
 
 export default function Day34() {
@@ -20,14 +21,13 @@ export default function Day34() {
             </div>
             <main className={"bg-zinc-700 text-white h-12/12"}>
                 <div className={"flex w-page90 md:w-page70 mr-auto ml-auto flex-col max-w-page"}>
-                    <h2 className={"w-fit self-center text-3xl mb-5 mt-5 font-vegan tracking-wider"}>Third/fourth Day</h2>
+                    <h2 className={"w-fit self-center text-3xl mb-5 mt-5 font-vegan tracking-wider"}>Third and Fourth Day</h2>
                     <Slider images={[
-                        {name:"viewMorning", image:viewMorning},
-                        {name:"goldenBridgeFar", image:goldenBridgeFar},
-                        {name:"onGoldenBridge", image:onGoldenBridge},
-                        {name:"microsoftLogo", image:microsoftLogo},
-                        {name:"appleVisitor", image:appleVisitor},
-                        {name:"viewSanFran", image:viewSanFran},
+                        {name:"morningView", image:morningView},
+                        {name:"berkley", image:berkley},
+                        {name:"berkley2", image:berkley2},
+                        {name:"odooSign", image:odooSign},
+                        {name:"oracle", image:oracle},
                     ]}/>
                     <article className={"mb-5 flex flex-col"}>
                         <div className="flex justify-end mb-3">

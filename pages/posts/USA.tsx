@@ -20,23 +20,15 @@ export default function Blog() {
                                description={"The journey from Bruges to  San Francisco. It all started monday morning at 1AM and ended more then 24 hours later in nice city of San Francisco."}
                                image={"/images/howestUSA/day1/IMG_8392.jpg"} slug={'./USA/day1'}/>
                         <Diary title={"Day 2"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
+                               description={"Day 2 was a great day. It started with the crossing of the Golden Gate Bridge after this we visited Palo Alto Networks then Microsoft and as last the Apple visitor center."}
                                image={"/images/howestUSA/day2/golden_bridge_far.jpg"} slug={'./USA/day2'}/>
-                        {/*<Diary title={"Day 3"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
+                        <Diary title={"Day 3"}
+                               description={"Starts with Belgium speakers that moved to the USA. In the afternoon we visited the barkley university. Day 4 we visited Odoo + and after to Oracle. "}
+                               image={"/images/howestUSA/day3-4/morningView.jpeg"} slug={'./USA/day3-4'}/>
                         <Diary title={"Day 4"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
-                        <Diary title={"Day 5"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
-                        <Diary title={"Day 6"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>
-                        <Diary title={"Day 7"}
-                               description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores "}
-                               image={"/images/howestUSA/day1/testday1.svg"} slug={'#'}/>*/}
+                               description={"There was not much planned for the last 3 days. The only 2 things on the schedule were Cloudflare and Alcatraz, so with all the free time we went to the movie theatre, baseball and so much more. "}
+                               image={"/images/howestUSA/lastDays/bridge.jpeg"} slug={'./USA/lastDays'}/>
+
                     </div>
                 </div>
             </main>
