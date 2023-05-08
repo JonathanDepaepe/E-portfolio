@@ -104,10 +104,10 @@ export default function Home() {
                             to create or edit websites in my spare time. Getting to know new projects and solving their
                             problems is definitely my thing!</p>
                         <div className={"mt-3 flex flex-wrap justify-center md:justify-end"}>
-                            <Link className={"profile-button  flex "} href={""}>Project <FontAwesomeIcon
+                            <Link className={"profile-button  flex "} href={"/projects"}>Project <FontAwesomeIcon
                                 className={"ml-1 mt-auto mb-auto"}
                                 icon={faFloppyDisk}/></Link>
-                            <Link className={"profile-button flex"} href={""}>Contact <FontAwesomeIcon className={"ml-1 mt-auto mb-auto"}
+                            <Link className={"profile-button flex"} href={"/contact"}>Contact <FontAwesomeIcon className={"ml-1 mt-auto mb-auto"}
                                                                                                   icon={faEnvelope}/></Link>
                             <Link className={"profile-button flex"} href={"/blog"}>Blog <FontAwesomeIcon className={"ml-1 mt-auto mb-auto"}
                                                                                                     icon={faComment}/></Link>
