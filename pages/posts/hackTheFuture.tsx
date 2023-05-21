@@ -48,10 +48,10 @@ export default function Blog() {
                             <div className="mt-3 md:mt-0 md:w-5/12">
                                 <h3 className={"text-2xl text-teal-600 mb-3"}>Challenge</h3>
                                 <p className={"text-s text-gray-300"}>We picked the challenge Plant The Future by Optis.
-                                    This challenge had 2 technologies
-                                    JavaSpring and React. The challenge itself was very simple, create an Front-end
+                                    This challenge had 2 technologies,
+                                    JavaSpring and React. The challenge itself was very simple, create a Front-end
                                     application in react that
-                                    communicate with an JavaScript backend API The challenge had its own theme ours was
+                                    communicate with a JavaScript backend API The challenge had its own theme ours was
                                     the following: Creating a web application where you
                                     can purchase a number of trees. This way you can reduce your
                                     own CO<sub>2</sub> emissions.</p>
@@ -63,15 +63,15 @@ export default function Blog() {
                                     and a briefing. After this the Hacking started for 2 Hours, after the 2 hours we had
                                     a well made lunch with
                                     soup, wraps ... When the lunch was done, we had another 2-3 hours of hacking. When
-                                    the times was up we had to
-                                    pitch our solutions and vote on the best one. As last there was an Award ceremony
-                                    that announced all the winner from the challenges</p>
+                                    the time was up we had to
+                                    pitch our solutions and vote on the best one. As last, there was an Award ceremony
+                                    that announced all the winners from the challenges</p>
                             </div>
                         </div>
                         <h3 className={"text-2xl text-teal-600 mb-3 mt-10"}>Prizes</h3>
                         <p className={"text-s text-gray-300"}>There were 2 prizes per challenge, one price was for being
                             the most voted solution by other
-                            students and the other was being best solution for the challenge Aron and me won one the
+                            students and the other was being best solution for the challenge. Aron and I won one price, the
                             price for most voted solution and with this we both got an backpack
                             made out of cork.</p>
 

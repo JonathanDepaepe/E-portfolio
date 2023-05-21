@@ -98,7 +98,7 @@ export default function Home() {
                             cursorStyle='_'
 
                         /></h2>
-                        <p className={"text-center md:text-right"}>A font end developer who will soon be graduated from Howest Bruges
+                        <p className={"text-center md:text-right"}>A front end developer who will soon graduate from Howest Bruges
                             as a
                             Software engineer. I like
                             to create or edit websites in my spare time. Getting to know new projects and solving their
